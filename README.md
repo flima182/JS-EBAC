@@ -98,7 +98,7 @@ switch (cor) {
         console.log('desculpe, não temos essa opção');
 } 
 
-## Media
+## Calcular Media
 
 var nota1 = 10;
 var nota2 = 8;
@@ -109,4 +109,53 @@ if ( media > 8 ) {
     console.log ('aluno aprovado');
 } else {
     console.log ('aluno em recuperação');
+}
+
+## Laços de repetição
+
+exemplo: 
+
+for([expressaoinicial]; [condicao]; [incremento])
+for( condição ){
+    execução
+}
+
+exercicio:
+//fazer a revisão do carro aos 10km
+
+var km;
+var revisao = 10
+
+for(km = 0; km <= revisao; km++ ){
+    console.log('apenas ' + km + 'kms pode rodar')
+}
+
+
+### Calcular a media de todos os alunos
+
+var alunos = [
+    [6, 7, 8, 6],
+    [8, 5, 6, 8],
+    [10, 6, 8, 7]
+]
+
+var nota = 0;
+for (var i = 0; i < alunos.length; i++){
+    
+    nota = 0
+    aluno = alunos[i]
+    console.log ('Aluno: ' + aluno);
+
+    for( c = 0; c < alunos.length; c++){
+        nota +=  alunos[c];
+    }
+
+    media = nota / 4;
+    if( media >= 7) {
+        resultado = 'aprovado';
+    } else {
+        resultado = 'reprovado';
+    }
+
+    console.log('Media: ' + media + '-' + resultado);
 }
