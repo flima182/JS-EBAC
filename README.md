@@ -140,6 +140,24 @@ for( condição ){
 execução
 }
 
+while( [condicao] ){ [execucao] }
+
+var hora = 24;
+while (hora > 0) {
+
+  console.log(hora);
+  hora--;
+}
+
+console.log('total de horas: ' + hora);
+
+
+do {
+execução
+} while (condição)
+
+var contador = 0; while( contador < 10) { contador++ }
+
 exercicio:
 //fazer a revisão do carro aos 10km
 
@@ -162,11 +180,12 @@ var nota = 0;
 for (var i = 0; i < alunos.length; i++){
 
     nota = 0
-    aluno = alunos[i]
-    console.log ('Aluno: ' + aluno);
+    notasAluno = alunos[i]
+    console.log ('Aluno: ' + i);
+    console.log ('Notas: ' + notasAluno);
 
-    for( c = 0; c < alunos.length; c++){
-        nota +=  alunos[c];
+    for( c = 0; c < notasAluno.length; c++){
+        nota +=  notasAluno[c];
     }
 
     media = nota / 4;
@@ -179,3 +198,36 @@ for (var i = 0; i < alunos.length; i++){
     console.log('Media: ' + media + '-' + resultado);
 
 }
+
+## Funções 
+
+- Evitar a repetição de código
+- Realizar chamadas dinâmicas de agoritmos
+
+function calcularMedia(notas) {
+  var soma = 0;
+  for (c = 0; c < notas.length; c++) {
+    soma += notas[c];
+
+  }
+  media = soma / notas.length;
+
+  return media;
+}
+
+function aprovacao( notas ) {
+  let media = calcularMedia( notas );
+  let condicao = media >= 7 ? 'aprovado' : 'reprovado';
+  return 'Média: ' + media + '- Resultado: '+ condicao;
+}
+
+//console.log('Media: ' + calcularMedia([9, 6]))
+//console.log(aprovacao(calcularMedia([9, 6])))
+
+console.log( aprovacao([8, 8, 7]));
+
+//console.log('Media: ' + calcularMedia([10, 8]))
+//console.log(aprovacao(calcularMedia([10, 8])))
+
+//console.log('Media: ' + calcularMedia([8, 5]))
+//console.log(aprovacao(calcularMedia([8, 5])))
