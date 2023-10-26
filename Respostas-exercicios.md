@@ -38,27 +38,27 @@
 
 ## 2. Responda as perguntas de acordo com as variáveis.
 
-let branco = “preto”;
-let preto = “cinza”;
-let cinza = “branco”;
-let carro = “preto”;
-let valor = 30000;
-let prestacao = 750
+let branco = “preto”;<br>
+let preto = “cinza”;<br>
+let cinza = “branco”;<br>
+let carro = “preto”;<br>
+let valor = 30000;<br>
+let prestacao = 750<br>
 
-a) branco == “branco”
-r: false
+a) branco == “branco”<br>
+r: false<br>
 
-b) branco == cinza
-r: false
+b) branco == cinza<br>
+r: false<br>
 
-c) carro === branco
-r: true
+c) carro === branco<br>
+r: true<br>
 
-d) var cavalo = carro == “preto” ? “cinza” : “marron”;
-r: cinza
+d) var cavalo = carro == “preto” ? “cinza” : “marron”;<br>
+r: cinza<br>
 
-e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
-de 3.000? Demonstre a operação.
+e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada<br>
+de 3.000? Demonstre a operação.<br>
 
 ### resposta:
 // Valor total do carro <br>
