@@ -61,32 +61,32 @@ e) Quantas prestações são necessárias para pagar o valor do carro com uma en
 de 3.000? Demonstre a operação.
 
 ### resposta:
-// Valor total do carro
-let valorCarro = 15000; // Substitua pelo valor real do carro
+// Valor total do carro <br>
+let valorCarro = 15000; // Substitua pelo valor real do carro<br>
 
-// Valor da entrada
-let entrada = 3000;
+// Valor da entrada<br>
+let entrada = 3000;<br>
 
-// Valor de cada prestação
-let valorPrestacao = 1000; // Substitua pelo valor real de cada prestação
+// Valor de cada prestação<br>
+let valorPrestacao = 1000; // Substitua pelo valor real de cada prestação<br>
 
-// Cálculo do número de prestações necessárias
-let numeroPrestacoes = Math.ceil((valorCarro - entrada) / valorPrestacao);
+// Cálculo do número de prestações necessárias<br>
+let numeroPrestacoes = Math.ceil((valorCarro - entrada) / valorPrestacao);<br>
 
-console.log(`Você precisará de ${numeroPrestacoes} prestações para pagar o carro.`);
+console.log(`Você precisará de ${numeroPrestacoes} prestações para pagar o carro.`);<br>
 
 f) Somando as variáveis de cores é formada uma string de quantos caracteres?
 
 ### resposta:
 
-let cor1 = "vermelho"; // 7 caracteres
-let cor2 = "azul"; // 4 caracteres
-let cor3 = "verde"; // 5 caracteres
+let cor1 = "vermelho"; // 7 caracteres<br>
+let cor2 = "azul"; // 4 caracteres<br>
+let cor3 = "verde"; // 5 caracteres<br>
 
-// Somando as variáveis de cores
-let stringConcatenada = cor1 + cor2 + cor3;
+// Somando as variáveis de cores<br>
+let stringConcatenada = cor1 + cor2 + cor3;<br>
 
-// Calculando o comprimento da string resultante
-let comprimentoDaString = stringConcatenada.length;
+// Calculando o comprimento da string resultante<br>
+let comprimentoDaString = stringConcatenada.length;<br>
 
-console.log(`A string resultante tem ${comprimentoDaString} caracteres.`);
+console.log(`A string resultante tem ${comprimentoDaString} caracteres.`);<br>
