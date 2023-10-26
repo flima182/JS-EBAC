@@ -60,30 +60,25 @@ r: cinza
 e) Quantas prestações são necessárias para pagar o valor do carro com uma entrada
 de 3.000? Demonstre a operação.
 
-// Valor total do carro
-let valorCarro = 15000; // Substitua pelo valor real do carro
 
-// Valor da entrada
+let valorCarro = 15000; 
+
 let entrada = 3000;
 
-// Valor de cada prestação
-let valorPrestacao = 1000; // Substitua pelo valor real de cada prestação
+let valorPrestacao = 1000; 
 
-// Cálculo do número de prestações necessárias
 let numeroPrestacoes = Math.ceil((valorCarro - entrada) / valorPrestacao);
 
 console.log(`Você precisará de ${numeroPrestacoes} prestações para pagar o carro.`);
 
 f) Somando as variáveis de cores é formada uma string de quantos caracteres?
 
-let cor1 = "vermelho"; // 7 caracteres
-let cor2 = "azul"; // 4 caracteres
-let cor3 = "verde"; // 5 caracteres
+let cor1 = "vermelho"; 
+let cor2 = "azul"; 
+let cor3 = "verde"; 
 
-// Somando as variáveis de cores
 let stringConcatenada = cor1 + cor2 + cor3;
 
-// Calculando o comprimento da string resultante
 let comprimentoDaString = stringConcatenada.length;
 
 console.log(`A string resultante tem ${comprimentoDaString} caracteres.`);
