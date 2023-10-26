@@ -231,3 +231,19 @@ console.log( aprovacao([8, 8, 7]));
 
 //console.log('Media: ' + calcularMedia([8, 5]))
 //console.log(aprovacao(calcularMedia([8, 5])))
+
+### Função recursivas
+
+function contagemRegressiva(numero) {
+
+console.log(numero);
+
+let proximoNumero = numero - 1;
+
+if(numero > 0)
+contagemRegressiva(proximoNumero);
+
+}
+
+
+contagemRegressiva(10);
