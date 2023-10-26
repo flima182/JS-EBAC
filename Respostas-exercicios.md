@@ -3,37 +3,37 @@
 ## 1 - Resolva as operações:
 
 <ul>
-    <li> ● 10 + 15 = 25 (number)</li>
-    <li>● 10 + 15 = 25 (number)</li>
-    <li>● “10” + 2 = '102' (string)</li>
-    <li>● “10” _ 2 = 20 (number)</li>
-    <li>● “10” / 3 = 3.3333333333333335 (float)</li>
-    <li>● “10” % 3 = 1 (number)</li>
-    <li>● 10 + true = 11 (number)</li>
-    <li>● 10 == ”10” = true (boolean)</li>
-    <li>● 10 === “10” = false (boolean)</li>
-    <li>● 10 < 11 = true (boolean)</li>
-    <li>● 10 > 12 = false (boolean)</li>
-    <li>● 10 <= 10.1 = true (boolean)</li>
-    <li>● 10 > 9.99 = true (boolean)</li>
-    <li>● 10 != “dez” = true (boolean)</li>
-    <li>● 10 + true = 11 (number)</li>
-    <li>● “dez” + true = 'deztrue' (string)</li>
-    <li>● 10 + false = 10 (number)</li>
-    <li>● 10 * false = 0 (number)</li>
-    <li>● true + true = 2 (number)</li>
-    <li>● 10++ = 11 (incremento)</li>
-    <li>● 10-- = 9 (decremento)</li>
-    <li>● 1 & 1 = 1 (number)</li>
-    <li>● 1 & 0 = 0 (number)</li>
-    <li>● 0 & 0 = 0 (number)</li>
-    <li>● 1 & 0 = 0 (number)</li>
-    <li>● 0 / 1 = 0 (number)</li>
-    <li>● 5 + 5 == 10 = true (boolean)</li>
-    <li>● “5” + ”5” == 10 = false (boolean)</li>
-    <li>● “5” _ 2 > 9 = true (boolean)</li>
-    <li>● (10 + 10) _ 2 = 40 (number)</li>
-    <li>● 10 + 10 * 2 = 30 (number)</li>
+    <li> 10 + 15 = 25 (number)</li>
+    <li> 10 + 15 = 25 (number)</li>
+    <li> “10” + 2 = '102' (string)</li>
+    <li> “10” _ 2 = 20 (number)</li>
+    <li> “10” / 3 = 3.3333333333333335 (float)</li>
+    <li> “10” % 3 = 1 (number)</li>
+    <li> 10 + true = 11 (number)</li>
+    <li> 10 == ”10” = true (boolean)</li>
+    <li> 10 === “10” = false (boolean)</li>
+    <li> 10 < 11 = true (boolean)</li>
+    <li> 10 > 12 = false (boolean)</li>
+    <li> 10 <= 10.1 = true (boolean)</li>
+    <li> 10 > 9.99 = true (boolean)</li>
+    <li> 10 != “dez” = true (boolean)</li>
+    <li> 10 + true = 11 (number)</li>
+    <li> “dez” + true = 'deztrue' (string)</li>
+    <li> 10 + false = 10 (number)</li>
+    <li> 10 * false = 0 (number)</li>
+    <li> true + true = 2 (number)</li>
+    <li> 10++ = 11 (incremento)</li>
+    <li> 10-- = 9 (decremento)</li>
+    <li> 1 & 1 = 1 (number)</li>
+    <li> 1 & 0 = 0 (number)</li>
+    <li> 0 & 0 = 0 (number)</li>
+    <li> 1 & 0 = 0 (number)</li>
+    <li> 0 / 1 = 0 (number)</li>
+    <li> 5 + 5 == 10 = true (boolean)</li>
+    <li> “5” + ”5” == 10 = false (boolean)</li>
+    <li> “5” _ 2 > 9 = true (boolean)</li>
+    <li> (10 + 10) _ 2 = 40 (number)</li>
+    <li> 10 + 10 * 2 = 30 (number)</li>
 </ul>
 
 ## 2. Responda as perguntas de acordo com as variáveis.
